@@ -3,8 +3,9 @@
 // to Sketch.xcassets
 
 import UIKit
+
 struct Sketch {
-	static let Oval: UIImage = UIImage(named: "Oval") ?? UIImage()
-	static let Polygon: UIImage = UIImage(named: "Polygon") ?? UIImage()
-	static let Star: UIImage = UIImage(named: "Star") ?? UIImage()
+	static var Oval: UIImage { return UIImage(named: "Oval") ?? UIImage() }
+	static var Polygon: UIImage { return UIImage(named: "Polygon") ?? UIImage() }
+	static var Star: UIImage { return UIImage(named: "Star") ?? UIImage() }
 }
